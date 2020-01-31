@@ -1,14 +1,16 @@
 import React, {Component} from "react";
 import Display from "../design/Display";
 import Settings from "../design/Settings";
+import { storage } from "../../config/firebaseConfig"
 
 class Dashboard extends Component {
 
     state = {
         tshirtColor: 'black',
-        upperText: 'This is Upper text',
-        lowerText: 'This is Lower text',
-        memeImg: ''
+        upperText: '',
+        lowerText: '',
+        memeImg: '',
+        url: ''
     }
 
     handleTshirtColor = (event) => (
@@ -29,6 +31,26 @@ class Dashboard extends Component {
         })
     )
 
+    handleImageUpload = (event) =>{
+        if (event.target.files[0]){
+            const image = (event.target.files[0])
+            const uploadTask = storage.ref(`images/${image.name}`).put(image);
+            uploadTask.on('state_changed',
+            (snapshot) => {
+                console.log(snapshot);
+            },
+            (error) => {
+                console.log(error);
+            },
+            () => {
+                storage.ref('images').child(image.name).getDownloadURL().then(url => {
+                    this.setState({url})
+                })
+            }
+            )
+        }
+    }
+
     render() {
         return(
             <div className="container py-5">
@@ -41,6 +63,7 @@ class Dashboard extends Component {
                             color={this.handleTshirtColor}
                             upperText={this.handleUpperText}
                             lowerText={this.handleLowerText}
+                            uploadImage={this.handleImageUpload}
                         />
                     </div>
                 </div>

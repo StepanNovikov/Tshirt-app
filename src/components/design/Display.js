@@ -13,14 +13,14 @@ const Display = (props) => {
             </div>
             <div className="nameText text-center">
                 <div className="upperText">
-                    <p>{props.display.upperText}</p>
+                    <p>{`${props.display.upperText}` || 'Upper Text Here'}</p>
                 </div>
                 <img
-                    src="http://via.placeholder.com/400x300"
+                    src={`${props.display.url}` || 'http://via.placeholder.com/400x300'}
                     alt="name-text"
                 />
                 <div className="lowerText">
-                    <p>{props.display.lowerText}</p>
+                    <p>{`${props.display.lowerText}` || 'Lower Text Here'}</p>
                 </div>
             </div>
         </div>

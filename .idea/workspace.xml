@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="137f1825-70c8-4fc7-97bb-b7e3330efb1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/design/Display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/design/Display.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/design/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/design/Settings.js" afterDir="false" />
@@ -32,6 +34,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580413495720</updated>
-      <workItem from="1580413499424" duration="7388000" />
+      <workItem from="1580413499424" duration="10696000" />
     </task>
     <task id="LOCAL-00001" summary="create the structure of project and connected bootstrap">
       <created>1580418825508</created>
@@ -71,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580420912248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed color of tshirt pattern, upper text and lower text">
+      <created>1580429003413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580429003413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,16 +90,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create the structure of project and connected bootstrap" />
     <MESSAGE value="added Display.css and structure of Settings component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Display.css and structure of Settings component" />
+    <MESSAGE value="changed color of tshirt pattern, upper text and lower text" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed color of tshirt pattern, upper text and lower text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580420912097">
+    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580429003227">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580420912097" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580420914983">
+    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580429003227" />
+    <state x="855" y="154" key="RollbackChangesDialog" timestamp="1580455027631">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580420914983" />
+    <state x="855" y="154" key="RollbackChangesDialog/0.23.1440.827@0.23.1440.827" timestamp="1580455027631" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580429005257">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580429005257" />
   </component>
 </project>

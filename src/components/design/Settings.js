@@ -21,16 +21,16 @@ const Settings = (props) => {
             </div>
             <hr/>
             <h4>Write Text</h4>
-            <input onChange={props.upperText} type="text" className="form-control form-control-sm mb-2" placeholder="Upper text"/>
-            <input onChange={props.lowerText} type="text" className="form-control form-control-sm" placeholder="Lower text"/>
+                <input onChange={props.upperText} type="text" className="form-control form-control-sm mb-2" placeholder="Upper text"/>
+                <input onChange={props.lowerText} type="text" className="form-control form-control-sm" placeholder="Lower text"/>
             <hr/>
             <h4>Upload image</h4>
             <div className="form-group">
-                <input type="file" className="form-control-file mb-2"/>
+                <input onChange={props.uploadImage} type="file" className="form-control-file mb-2"/>
             </div>
             <hr/>
             <h4>Text size</h4>
-            <input type="range" min="0" max="100"/>
+                <input type="range" min="0" max="100"/>
             <hr/>
             <h4>Text Color</h4>
             <select className="form-control form-control-sm mb-2" >
