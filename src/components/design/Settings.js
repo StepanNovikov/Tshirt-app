@@ -30,15 +30,15 @@ const Settings = (props) => {
             </div>
             <hr/>
             <h4>Text size</h4>
-                <input type="range" min="0" max="100"/>
+                <input onChange={props.textSize} type="range" min="24" max="44"/>
             <hr/>
             <h4>Text Color</h4>
-            <select className="form-control form-control-sm mb-2" >
-                <option>White</option>
-                <option>Black</option>
-                <option>Grey</option>
-                <option>Blue</option>
-                <option>Red</option>
+            <select onChange={props.textColor} className="form-control form-control-sm mb-2" >
+                <option>white</option>
+                <option>black</option>
+                <option>grey</option>
+                <option>blue</option>
+                <option>red</option>
             </select>
             <hr/>
             <button className="btn btn-primary btn-sm mb-2">Save</button>

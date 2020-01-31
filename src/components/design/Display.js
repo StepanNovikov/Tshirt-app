@@ -2,6 +2,7 @@ import React from "react";
 import "./Display.css";
 
 const Display = (props) => {
+    console.log(props.display.textColor)
     return (
         <div className="card card-content">
             <div className="imgTshirt text-center">
@@ -13,14 +14,14 @@ const Display = (props) => {
             </div>
             <div className="nameText text-center">
                 <div className="upperText">
-                    <p>{`${props.display.upperText}` || 'Upper Text Here'}</p>
+                    <p style={{fontSize: props.textFormat, color: props.display.textColor}}>{props.display.upperText}</p>
                 </div>
                 <img
                     src={`${props.display.url}` || 'http://via.placeholder.com/400x300'}
                     alt="name-text"
                 />
                 <div className="lowerText">
-                    <p>{`${props.display.lowerText}` || 'Lower Text Here'}</p>
+                    <p style={{fontSize: props.textFormat, color: props.display.textColor}}>{props.display.lowerText}</p>
                 </div>
             </div>
         </div>

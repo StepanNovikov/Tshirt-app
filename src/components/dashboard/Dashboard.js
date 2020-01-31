@@ -7,10 +7,12 @@ class Dashboard extends Component {
 
     state = {
         tshirtColor: 'black',
-        upperText: '',
-        lowerText: '',
+        upperText: 'This is Upper text',
+        lowerText: 'This is Lower text',
         memeImg: '',
-        url: ''
+        url: '',
+        textSize: 44,
+        textColor: 'white'
     }
 
     handleTshirtColor = (event) => (
@@ -51,12 +53,31 @@ class Dashboard extends Component {
         }
     }
 
+    handleTextsize = (event) => {
+        this.setState({
+            textSize: event.target.value
+        })
+    }
+
+    formatText(){
+        const size = this.state.textSize;
+        return parseInt(size);
+    }
+
+    handleTextColor = (event) => {
+        this.setState({
+            textColor: event.target.value
+        })
+    }
+
     render() {
         return(
             <div className="container py-5">
                 <div className="row">
                     <div className="col-lg-8">
-                        <Display display={this.state}/>
+                        <Display display={this.state}
+                                 textFormat={this.formatText()}
+                        />
                     </div>
                     <div className="col-lg-4">
                         <Settings
@@ -64,6 +85,8 @@ class Dashboard extends Component {
                             upperText={this.handleUpperText}
                             lowerText={this.handleLowerText}
                             uploadImage={this.handleImageUpload}
+                            textSize={this.handleTextsize}
+                            textColor = {this.handleTextColor}
                         />
                     </div>
                 </div>
