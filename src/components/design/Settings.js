@@ -3,7 +3,7 @@ import React from "react";
 const urlImgBase = "https://res.cloudinary.com/dkkgmzpqd/image/upload/v1545217305/T-shirt%20Images/";
 
 
-const Settings = () => {
+const Settings = (props) => {
     return (
         <div className="card bg-light container">
             <h3 className="text-center">
@@ -13,16 +13,16 @@ const Settings = () => {
                 Change T-shirt color
             </h4>
             <div className="tshirt-color">
-                <img src={`${urlImgBase}white.png`} alt="white-tshirt"/>
-                <img src={`${urlImgBase}black.png`} alt="black-tshirt"/>
-                <img src={`${urlImgBase}grey.png`} alt="grey-tshirt"/>
-                <img src={`${urlImgBase}blue.png`} alt="blue-tshirt"/>
-                <img src={`${urlImgBase}red.png`} alt="red-tshirt"/>
+                <img onClick={props.color} src={`${urlImgBase}white.png`} alt="white-tshirt" id="white"/>
+                <img onClick={props.color} src={`${urlImgBase}black.png`} alt="black-tshirt" id="black"/>
+                <img onClick={props.color} src={`${urlImgBase}grey.png`} alt="grey-tshirt" id="grey"/>
+                <img onClick={props.color} src={`${urlImgBase}blue.png`} alt="blue-tshirt" id="blue"/>
+                <img onClick={props.color} src={`${urlImgBase}red.png`} alt="red-tshirt" id="red"/>
             </div>
             <hr/>
             <h4>Write Text</h4>
-            <input type="text" className="form-control form-control-sm mb-2" placeholder="Upper text"/>
-            <input type="text" className="form-control form-control-sm" placeholder="Lower text"/>
+            <input onChange={props.upperText} type="text" className="form-control form-control-sm mb-2" placeholder="Upper text"/>
+            <input onChange={props.lowerText} type="text" className="form-control form-control-sm" placeholder="Lower text"/>
             <hr/>
             <h4>Upload image</h4>
             <div className="form-group">

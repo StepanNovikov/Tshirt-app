@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="137f1825-70c8-4fc7-97bb-b7e3330efb1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/design/Display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/design/Display.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/design/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/design/Settings.js" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580413495720</updated>
-      <workItem from="1580413499424" duration="3746000" />
+      <workItem from="1580413499424" duration="7388000" />
     </task>
     <task id="LOCAL-00001" summary="create the structure of project and connected bootstrap">
       <created>1580418825508</created>
@@ -63,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580418825508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Display.css and structure of Settings component">
+      <created>1580420912248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580420912248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,16 +79,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create the structure of project and connected bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the structure of project and connected bootstrap" />
+    <MESSAGE value="added Display.css and structure of Settings component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Display.css and structure of Settings component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580418825323">
+    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580420912097">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580418825323" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580418849601">
+    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580420912097" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580420914983">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580418849601" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580420914983" />
   </component>
 </project>
