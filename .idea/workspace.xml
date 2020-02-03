@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="137f1825-70c8-4fc7-97bb-b7e3330efb1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580413495720</updated>
-      <workItem from="1580413499424" duration="14518000" />
+      <workItem from="1580413499424" duration="15061000" />
     </task>
     <task id="LOCAL-00001" summary="create the structure of project and connected bootstrap">
       <created>1580418825508</created>
@@ -93,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580460450884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created new component such as Navbar and has connect react-router-dom">
+      <created>1580466404962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580466404962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,20 +109,21 @@
     <MESSAGE value="changed color of tshirt pattern, upper text and lower text" />
     <MESSAGE value="added upload image to firebase and unload to tshirt" />
     <MESSAGE value="change text size and text color" />
-    <option name="LAST_COMMIT_MESSAGE" value="change text size and text color" />
+    <MESSAGE value="created new component such as Navbar and has connect react-router-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new component such as Navbar and has connect react-router-dom" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580460450718">
+    <state x="314" y="39" key="CommitChangelistDialog2" timestamp="1580466404735">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580460450718" />
+    <state x="314" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1580466404735" />
     <state x="855" y="154" key="RollbackChangesDialog" timestamp="1580455027631">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="855" y="154" key="RollbackChangesDialog/0.23.1440.827@0.23.1440.827" timestamp="1580455027631" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580460452805">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1580466406472">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580460452805" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1580466406472" />
   </component>
 </project>
