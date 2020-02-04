@@ -11,7 +11,7 @@ class Project extends  Component {
                     <div className="project-list">
                         {designs && designs.map(design => {
                             return (
-                                <ProjectList design={design} key={design.import {  } from 'module';}/>
+                                <ProjectList design={design} key={design.id}/>
                             )
                         })}
                     </div>
